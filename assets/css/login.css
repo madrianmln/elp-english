@@ -1,0 +1,177 @@
+body{
+    background-image: url("../img/elpclass-bg.jpg");
+    background-size: cover !important;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Raleway', sans-serif !important;
+}
+
+/* Banner */
+
+.banner{
+    display: flex !important;
+    justify-content: flex-end !important;
+    padding-right: 0px !important;
+
+}
+
+.banner img{
+    width: 400px !important;
+    height: 520px !important;
+    margin-top: 60px !important;
+    margin-bottom: 60px !important;
+    border-radius: 20px 0px 0px 20px !important;
+}
+
+/* Banner-end */
+
+/* Login-form */
+
+.login-form{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    padding-left: 0px !important;
+}
+
+.card{
+    width: 400px !important;
+    height: 520px !important;
+    margin-top: 60px !important;
+    margin-bottom: 60px !important;
+    border: 0px !important;
+    border-radius: 0px 20px 20px 0px !important;
+}
+
+/* .loginform-box h4{
+    text-align: center !important;
+    margin-top: 45px !important;
+    margin-bottom: 15px !important;
+    font-weight: 600 !important;
+    font-size: 32px !important;
+    line-height: 40px !important;
+} */
+.card-title{
+    display: flex;
+    justify-content:flex-start;
+}
+
+.loginform-box img{
+    text-align: center !important;
+    margin-top: 45px !important;
+    margin-bottom: 15px !important;
+    font-weight: 600 !important;
+    font-size: 32px !important;
+    line-height: 40px !important;
+    width: 100px !important;
+}
+
+.loginform-box p{
+    text-align: center !important;
+    margin-bottom: 20px !important;
+    font-weight: 600;
+}
+
+.loginform-box label{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 19px;
+}
+
+.loginform-box input{
+    font-size: 13px !important;
+    width: 350px;
+    height: 30px;
+    background: #D9D9D9;
+    border-radius: 3px;
+    padding-left: 7px !important;
+    margin-bottom: 15px;
+}
+
+.loginform-box input:focus{
+    border: inset 1px #D9D9D9 !important;
+    box-shadow: none !important;
+}
+
+.form-text{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 19px;
+}
+
+.loginform-box button{
+    font-size: 13px !important;
+    width: 350px;
+    height: 30px;
+    background: #055CA2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: #055CA2;
+    border-radius: 3px;
+    margin-bottom: 25px !important;
+}
+
+.loginform-box button:hover{
+    background: #06518f;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+}
+
+.loginform-box button:focus{
+    background: #06518f;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+}
+
+.loginform-box .link-daftar{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 19px;
+}
+
+.loginform-box .link-daftar a{
+    color: #002B5B !important;
+    text-decoration: none !important;
+}
+
+@media only screen and (max-width:840px) {
+    .banner{
+        display: none !important;
+    }
+
+    .login-form{
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        padding-left: 0px !important;
+    }
+    
+    .card{
+        width: 400px !important;
+        height: 520px !important;
+        margin-top: 60px !important;
+        margin-bottom: 60px !important;
+        border: 0px !important;
+        border-radius: 20px 20px 20px 20px !important;
+    }
+
+    .loginform-box input{
+        font-size: 13px !important;
+        width: 95% !important;
+        height: 30px;
+        background: #D9D9D9;
+        border-radius: 3px;
+        padding-left: 7px !important;
+        margin-bottom: 15px;
+    }
+    
+    .loginform-box button{
+        font-size: 13px !important;
+        width: 95%;
+        height: 30px;
+        background: #055CA2;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border: #055CA2;
+        border-radius: 3px;
+    }
+}
+
+/* Login-form-end */
